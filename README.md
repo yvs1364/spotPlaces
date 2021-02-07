@@ -11,7 +11,7 @@ git clone git@github.com:yvs1364/spotPlaces.git
 cd project
 ```
 
-### Check your Ruby version
+### Ruby version && rails version
 
 ```shell
 ruby 2.6.5
