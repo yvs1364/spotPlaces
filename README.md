@@ -1,24 +1,48 @@
-# README
+# Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!-- [project.com](https://project.com) -->
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+### Clone the repository
 
-* System dependencies
+```shell
+git clone git@github.com:yvs1364/spotPlaces.git
+cd project
+```
 
-* Configuration
+### Check your Ruby version
 
-* Database creation
+```shell
+ruby 2.6.5
+```
 
-* Database initialization
 
-* How to run the test suite
+```shell
+rails Rails 6.0.3.4
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
+### Install dependencies
 
-* ...
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
+
+```shell
+bundle && yarn
+```
+
+### Initialize the database
+
+```shell
+rails db:create db:migrate db:seed
+```
+
+## Serve
+
+```shell
+rails s
+```
+
+```shell
+mailcatcher    
+```
