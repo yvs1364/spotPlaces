@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
 
   protected
 
-  # add custom params for devise 
+  # add custom params for devise
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: %i[pseudo email password password_confirmation])
   end

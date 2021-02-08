@@ -2,9 +2,14 @@
     margin-top: 30em; 
     margin-left: 5em;
 }
-.big-title{
+.big-title a{
     font-size: 78px;
     font-weight: bold;
+    text-decoration: none !important;
+    color: black;
+}
+.big-title a:hover{
+   color: rgba(0,0,0,.8);
 }
 @media screen and (min-width: 200px) and (max-width: 640px) {
     .align-big-title{
