@@ -11,5 +11,5 @@ Rails.application.routes.draw do
       get :comfirm_email
     end
   end
-  resources :spots_vtts, only: :index
+  resources :spots_vtts, only: %i[index show]
 end

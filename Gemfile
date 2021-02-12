@@ -34,6 +34,7 @@ gem 'jquery-rails'
 gem 'pundit'
 gem 'rgeo-geojson'
 gem 'simple_form'
+gem 'geocoder'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

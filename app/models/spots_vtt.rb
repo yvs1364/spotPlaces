@@ -1,3 +1,4 @@
 class SpotsVtt < ApplicationRecord
-  validates :name, :start, :difficulty, presence: true
+  reverse_geocoded_by :latitude, :longitude
+  validates :name, :start, :difficulty, :city, :distance, :alt_min, :alt_max, :elevation_gain, :latitude, :longitude, presence: true
 end

@@ -1,0 +1,41 @@
+
+<div class="container-fluid">
+    <div class="name-spot-vtt">
+        <h1><%= @spots_vtt.name %></h1>
+    </div>
+
+    <div class="container">
+  
+
+    <table class="table table-bordered">
+  <tr>
+    <th>Difficulté:</th>
+    <td><%= @spots_vtt.difficulty %></td>
+  </tr>
+  <tr>
+    <th>Ville:</th>
+    <td><%= @spots_vtt.city %> </td>
+  </tr>
+  <tr>
+    <th>Départ:</th>
+    <td><%= @spots_vtt.start %></td>
+  </tr>
+    <tr>
+    <th>Distance total:</th>
+    <td><%= @spots_vtt.distance %> km</td>
+  </tr>
+    <tr>
+    <th>Altitude max:</th>
+    <td><%= @spots_vtt.alt_max %> M</td>
+  </tr>
+    <tr>
+    <th>Denivelé:</th>
+     <td><%= @spots_vtt.elevation_gain %> M</td>
+  </tr>
+</table>
+<p>latitude : <%= @spots_vtt.latitude %></p>
+<p>longitude : <%= @spots_vtt.longitude %></p>
+
+</div>
+
+</div>
